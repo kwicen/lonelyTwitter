@@ -30,5 +30,10 @@ public class ImportantTweetModel extends LonelyTweetModel
 		// TODO Auto-generated method stub
 		return super.timestamp;
 	}
+	
+	public String getStatus()
+	{
+		return "Important!";
+	}
 
 }
